@@ -1,0 +1,14 @@
+{
+  "name": "onready-exercise",
+  "version": "1.0.0",
+  "description": "Ejercicio de onReady",
+  "main": "index.js",
+  "scripts": {
+    "test": "test"
+  },
+  "author": "Lucas Della Sala",
+  "license": "ISC",
+  "dependencies": {
+    "colors": "^1.4.0"
+  }
+}
