@@ -15,7 +15,7 @@ Crear un programa cuyo punto de entrada sea un index.js en donde, al ejecutarse,
 - Vehículo que contiene en el modelo la letra ‘Y’: Yamaha YBR $80.500,50
 
 
-Ejercicio extra (si lo haces sumas puntos)
+## Ejercicio extra (si lo haces sumas puntos)
 =============================
 Vehículos ordenados por precio de mayor a menor:
 -Peugeot 208
