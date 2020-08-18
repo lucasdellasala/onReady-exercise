@@ -9,7 +9,7 @@ const vehiclesLogger = new Logger(vehiclesInventory);
 
 //Logger
 vehiclesLogger.logAllProducts();
-vehiclesLogger.logHighestPriceProducts();
-vehiclesLogger.logLowestPriceProducts();
-vehiclesLogger.logProductsWithLetter('Y');
-vehiclesLogger.logProductsDescPrice();
+// vehiclesLogger.logHighestPriceProducts();
+// vehiclesLogger.logLowestPriceProducts();
+// vehiclesLogger.logProductsWithLetter('Y');
+// vehiclesLogger.logProductsDescPrice();
