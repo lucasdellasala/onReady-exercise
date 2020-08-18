@@ -31,3 +31,6 @@ La solución debe cumplir con los siguientes requisitos:
 - El algoritmo usado para la impresión no tiene que depender de la cantidad, modelo o tipo de autos
 - El entregable deberá ser la URL de un repositorio Git público para que podamos descargar directamente.
 
+## Diagrama de clases
+
+<img src="./img/diagramaDeClases.png" title="Class diagram" />
