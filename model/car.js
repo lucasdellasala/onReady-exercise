@@ -10,7 +10,7 @@ class Car extends Vehicle {
     getData() {
         const carData = `Marca: ${this.brand} // Modelo: ${this.model} // Puertas: ${this.doors} // Precio: ${formatPrice(this.price)}`;
         return carData;
-        }
+    }
 }
 
 module.exports = Car;

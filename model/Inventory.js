@@ -9,23 +9,23 @@ class Inventory {
     }
 
     getProductData(product) {
-        return product.data;
+        return product.getData();
     }
 
     getProductsWithHighestPrice() {
-        const highestPrice = Math.max(...this.prices);
+        const highestPrice = Math.max(...this.getPrices());
         const productsWithHighestPrice = this.products.filter((product) => product.price === highestPrice);
         return productsWithHighestPrice;
     }
 
     getProductsWithLowestPrice() {
-        const lowestPrice = Math.min(...this.prices);
+        const lowestPrice = Math.min(...this.getPrices());
         const productsWithLowestPrice = this.products.filter((product) => product.price === lowestPrice);
         return productsWithLowestPrice;
     }
 
     findByLetter(letter) {
-        const productsWithLetter = this.products.filter(({ product }) => product.includes(letter));
+        const productsWithLetter = this.products.filter(({ model }) => model.includes(letter));
         return productsWithLetter;
     }
 
